@@ -1,0 +1,53 @@
+# See: http://matplotlib.org/users/style_sheets.html
+#      https://tonysyu.github.io/raw_content/matplotlib-style-gallery/gallery.html
+#      http://matplotlib.org/users/customizing.html
+
+figure.figsize: 12.0, 8.0
+figure.titlesize: 24.0
+figure.facecolor: white
+figure.edgecolor: 0.50
+
+font.size: 15.0
+
+axes.titlesize: 24.0
+axes.labelsize: 15.0
+axes.prop_cycle: cycler('color', ['F37D19', '96989C', '92C6FF', '97F0AA', 'FF9F9A', 'D0BBFF', 'FFFEA3', 'B0E0E6'])
+                                   # ^^       ^^ galvanize orange and grey
+axes.facecolor: EEEEEE
+axes.edgecolor: white
+axes.linewidth: 1
+axes.grid: True
+axes.labelcolor: 444444
+axes.axisbelow: True       # grid/ticks are below elements (e.g., lines, text)
+
+xtick.labelsize: 15.0
+xtick.major.width: 0.8
+xtick.minor.width: 0.4
+xtick.major.pad: 5.6
+xtick.color: 444444
+xtick.direction: out
+
+ytick.labelsize: 15.0
+ytick.major.width: 0.8
+ytick.minor.width: 0.4
+ytick.major.pad: 5.6
+ytick.color: 444444
+ytick.direction: out
+
+legend.fontsize: 15.0
+
+grid.linewidth: 0.8
+grid.color: white
+grid.linestyle: -    # solid line
+
+patch.linewidth: 0.24
+patch.facecolor: F37D19   # <-- galvanize orange
+patch.edgecolor: EEEEEE
+patch.antialiased: True
+
+lines.markersize: 5.6
+lines.markeredgewidth: 0
+lines.linewidth: 1.4
+
+image.cmap: gray
+image.interpolation: none
