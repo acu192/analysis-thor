@@ -1,3 +1,9 @@
+# Galvanize Themed Matplotlib Figures!
+
+Here's a sample:
+
+![](sample_of_theme.png)
+
 # How to use this theme
 
 Run the following commands in your shell:
